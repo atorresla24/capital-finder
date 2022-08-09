@@ -23,4 +23,5 @@ vercel dev
 ```
 Test paths:
 Link to original website: https://capital-finder-alec-torres-kn18fnyox-atorresla24.vercel.app/
-Works in localhost but says there is an internal-server error every time I try to run it in vercel. I will ask JB for assistance tomorrow.
+What country is the capital of Lima in? (https://capital-finder-alec-torres.vercel.app/api/country-finder?capital=lima)
+What is the capital of Peru? (https://capital-finder-alec-torres.vercel.app/api/capital-finder?name=peru)
