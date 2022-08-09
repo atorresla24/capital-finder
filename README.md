@@ -2,7 +2,7 @@ Alec Torres
 # LAB - Class 16
 Project: Capital-finder
 Author: Alec Torres
-Worked with Alec, Riki, and Jamall
+Worked with Leisl, Riki, and Jamall
 ## Links and Resources
 [To find a capital: Capital Find](api/capital_finder.py)
 [To find a country: Country Find](api/country_finder.py)
@@ -22,4 +22,5 @@ pip install -r requirements.txt
 vercel dev
 ```
 Test paths:
+Link to original website: https://capital-finder-alec-torres-kn18fnyox-atorresla24.vercel.app/
 Works in localhost but says there is an internal-server error every time I try to run it in vercel. I will ask JB for assistance tomorrow.
