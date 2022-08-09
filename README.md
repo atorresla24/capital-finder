@@ -1,4 +1,4 @@
-Alec Torres
+Alec Torres 
 # LAB - Class 16
 Project: Capital-finder
 Author: Alec Torres
