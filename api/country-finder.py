@@ -10,16 +10,16 @@ class handler(BaseHTTPRequestHandler):
         query_string_list = parse.parse_qsl(url_components.query)
         query_dict = dict(query_string_list)
 
-        if "name" in query_dict:
+        if "capital" in query_dict:
             url = "https://restcountries.com/v3.1/capital/"
-            query = query_dict["name"]
+            query = query_dict["capital"]
 
-            response = requests.get(url + query_dict["name"])
+            response = requests.get(url + query)
             data = response.json()
 
             country_name = data[0]["name"]
-            country = str(country_name("common"))
-            message = f"{query} is the capital {country}"
+            country = str(country_name["common"])
+            message = f"The capital of {country} is {query}"
 
             self.send_response(200)
             self.send_header('Content-type', 'text/plain')
